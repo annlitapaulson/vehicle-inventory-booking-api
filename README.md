@@ -2,6 +2,16 @@
 
 A RESTful API built with Django and Django REST Framework to manage vehicle inventory and customer bookings.
 
+## Live Deployment
+
+**Base URL:** https://vehicle-inventory-booking-api-ax9h.onrender.com
+
+### Live API Endpoints
+- **List/Create Vehicles:** https://vehicle-inventory-booking-api-ax9h.onrender.com/api/vehicles/
+- **Vehicle Details:** https://vehicle-inventory-booking-api-ax9h.onrender.com/api/vehicles/1/
+- **List/Create Bookings:** https://vehicle-inventory-booking-api-ax9h.onrender.com/api/bookings/
+- **Booking Details:** https://vehicle-inventory-booking-api-ax9h.onrender.com/api/bookings/1/
+
 ## Features
 
 - Create, retrieve, update, and delete vehicles.
@@ -82,6 +92,12 @@ python manage.py runserver
 ```
 
 The local API base URL is `http://127.0.0.1:8000/api/`.
+
+## API Demo Video
+
+Watch the 2–5 minute demonstration of the Vehicle Inventory & Booking API:
+
+[Watch the API Demo](https://drive.google.com/file/d/1WI-2xBDgUZRm_d5bcIJP50WVoGxyLTw2/view?usp=sharing)
 
 ## API Endpoints
 
@@ -171,9 +187,3 @@ Check successful vehicle and booking creation, filtering, invalid phone numbers,
 ## License
 
 Add a license if required by the repository owner.
-
-## API Demo Video
-
-Watch the 2–5 minute demonstration of the Vehicle Inventory & Booking API:
-
-[Watch the API Demo](https://drive.google.com/file/d/1WI-2xBDgUZRm_d5bcIJP50WVoGxyLTw2/view?usp=sharing)
