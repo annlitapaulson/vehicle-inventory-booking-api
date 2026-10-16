@@ -171,3 +171,9 @@ Check successful vehicle and booking creation, filtering, invalid phone numbers,
 ## License
 
 Add a license if required by the repository owner.
+
+## API Demo Video
+
+Watch the 2–5 minute demonstration of the Vehicle Inventory & Booking API:
+
+[Watch the API Demo](https://drive.google.com/file/d/1WI-2xBDgUZRm_d5bcIJP50WVoGxyLTw2/view?usp=sharing)
