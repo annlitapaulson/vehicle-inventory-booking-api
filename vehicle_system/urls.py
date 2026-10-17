@@ -1,19 +1,10 @@
+
 from django.contrib import admin
 from django.urls import path, include
-from django.http import JsonResponse
-
-
-def home(request):
-    return JsonResponse({
-        "message": "Vehicle Inventory & Booking API is running",
-        "vehicles": "/api/vehicles/",
-        "bookings": "/api/bookings/",
-        "admin": "/admin/"
-    })
-
+from django.views.generic import RedirectView
 
 urlpatterns = [
-    path('', home, name='home'),
+    path('', RedirectView.as_view(url='/api/vehicles/', permanent=False), name='home'),
     path('admin/', admin.site.urls),
     path('api/', include('inventory.urls')),
 ]
